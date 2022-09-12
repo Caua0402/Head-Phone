@@ -1,0 +1,23 @@
+.product{
+    grid-area: product;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.product__price{
+    height: 50px;
+    width: 200px;
+    font-size: 2rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+    color: #76045D;
+    background-color: #fff;
+}
+
+.product__navegation-container{
+    display: flex;
+}
